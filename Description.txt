@@ -1,9 +1,0 @@
-Data source: personal Strava GPX file exports
-
-Used GPSBabel to:
-	Convert GPX to CSV fileformat
-	Simplify GPS data. Some downfiltering of the raw data was necessary to improve performance in Tableau. Route GPS location information simplified from ~60k to ~20k, results in a minimum resolution of 1 datapoint/30 meters, on average.
-	Generate estimated speed and distance data.
-
-Minor data processing in Excel, date formatting etc.
-The output from GPSBabel was fed into Tableau to generate the visuals.
